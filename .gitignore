@@ -11,6 +11,9 @@ lsrv
 # Output of the go coverage tool
 *.out
 
+# Profiling files
+*.prof
+
 # Dependency directories
 vendor/
 
