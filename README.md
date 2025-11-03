@@ -63,19 +63,7 @@ lsrv displays a beautiful color-coded table showing:
 
 - Detects **any** server process (not limited to specific languages)
 - Works with compiled binaries (Go, Rust executables) by checking for project files
-- Shows servers with icons for recognized languages:
-  - Ruby/Rails 💎 (ruby, rails, puma, or Gemfile)
-  - Node.js ⬢ (node, npm, yarn, or package.json)
-  - Python 🐍 (python, gunicorn, uvicorn, or requirements.txt/pyproject.toml)
-  - Go 🐹 (go binary or go.mod/go.sum)
-  - Java ☕ (java)
-  - PHP 🐘 (php, php-fpm, apache2, httpd)
-  - Rust (cargo or Cargo.toml)
-  - .NET (dotnet, kestrel)
-  - Deno (deno)
-  - Bun 🍞 (bun)
-  - Elixir (elixir, beam.smp, mix)
-- Falls back to generic icon (🌐) for unknown processes
+- Shows servers with icons for recognized languages
 
 ## Requirements
 
