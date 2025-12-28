@@ -86,7 +86,7 @@ func printRoundedTable(servers []types.Server) {
 	t := table.New().
 		Border(lipgloss.RoundedBorder()).
 		BorderStyle(lipgloss.NewStyle().Foreground(lipgloss.Color("8"))).
-		Headers("REPO", "BRANCH", "PROCESS", "URL").
+		Headers("REPO", "BRANCH", "PROCESS", "PID", "URL").
 		StyleFunc(func(row, col int) lipgloss.Style {
 			// Use table.HeaderRow constant for header detection
 			if row == table.HeaderRow {
@@ -119,6 +119,7 @@ func serversToRows(servers []types.Server) [][]string {
 			server.Repo,
 			server.Branch,
 			fmt.Sprintf("%s %s", icon, server.Process),
+			fmt.Sprintf("%d", server.PID),
 			url,
 		}
 	}
@@ -164,7 +165,7 @@ func getCellStyle(server types.Server, col int, baseStyle lipgloss.Style) lipglo
 	}
 
 	// Color URLs blue
-	if col == 3 {
+	if col == 4 {
 		return baseStyle.Foreground(lipgloss.Color("4")) // Blue
 	}
 

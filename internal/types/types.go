@@ -6,6 +6,7 @@ type Server struct {
 	Branch  string
 	Process string
 	Port    int
+	PID     int
 	CWD     string
 }
 

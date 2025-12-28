@@ -12,7 +12,7 @@ import (
 	"github.com/felixge/fgprof"
 )
 
-const version = "0.2.2"
+const version = "0.3.0"
 
 func main() {
 	// CLI flags
@@ -90,6 +90,7 @@ func printHelp() {
 	fmt.Println("  REPO     - Repository name (from git remote or directory name)")
 	fmt.Println("  BRANCH   - Current git branch")
 	fmt.Println("  PROCESS  - Process running the server with icon (💎 ruby, ⬢ node, 🐹 go, etc.)")
+	fmt.Println("  PID      - Process ID")
 	fmt.Println("  URL      - Clickable HTTP URL to access the server")
 }
 

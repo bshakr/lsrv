@@ -144,6 +144,7 @@ func FindServers() ([]types.Server, error) {
 			Branch:  info.branch,
 			Process: proc.command,
 			Port:    proc.port,
+			PID:     proc.pid,
 			CWD:     cwd,
 		})
 	}
