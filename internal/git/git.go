@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bassemshaker/lsrv/internal/platform"
+	"github.com/bshakr/lsrv/internal/platform"
 )
 
 // IsRepo checks if the given directory is a git repository

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bassemshaker/lsrv/internal/detector"
-	"github.com/bassemshaker/lsrv/internal/types"
+	"github.com/bshakr/lsrv/internal/detector"
+	"github.com/bshakr/lsrv/internal/types"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/lipgloss/table"
 )

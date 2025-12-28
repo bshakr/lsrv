@@ -10,7 +10,7 @@ A lightweight Go CLI tool to list all running servers across your repos and work
 
 ```bash
 # Clone the repository
-git clone https://github.com/bassemshaker/lsrv.git
+git clone https://github.com/bshakr/lsrv.git
 cd lsrv
 
 # Build the binary
@@ -23,7 +23,7 @@ sudo mv lsrv /usr/local/bin/
 ### Option 2: Install with go install
 
 ```bash
-go install github.com/bassemshaker/lsrv@latest
+go install github.com/bshakr/lsrv@latest
 ```
 
 ## Usage

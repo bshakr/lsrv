@@ -6,9 +6,9 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/bassemshaker/lsrv/internal/detector"
-	"github.com/bassemshaker/lsrv/internal/formatter"
-	"github.com/bassemshaker/lsrv/internal/platform"
+	"github.com/bshakr/lsrv/internal/detector"
+	"github.com/bshakr/lsrv/internal/formatter"
+	"github.com/bshakr/lsrv/internal/platform"
 	"github.com/felixge/fgprof"
 )
 

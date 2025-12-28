@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bassemshaker/lsrv/internal/git"
-	"github.com/bassemshaker/lsrv/internal/platform"
-	"github.com/bassemshaker/lsrv/internal/types"
+	"github.com/bshakr/lsrv/internal/git"
+	"github.com/bshakr/lsrv/internal/platform"
+	"github.com/bshakr/lsrv/internal/types"
 )
 
 // Compile regex once at package level for performance
